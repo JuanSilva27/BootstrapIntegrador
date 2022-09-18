@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Navbar */
+.miNav{
+    background-color: #323b41 ;
+    position: sticky !important;
+    top: 0;
+    z-index: 20;
+}
+.navLinks{
+    text-decoration: none;
+    color:#73827b ;
+}
+.tickets{
+    color:  #81c53d ;
+}
+.nav-item :hover{
+    color: white
+}
+
+/* Sections */
+div.conferencia{
+/*     width: 100%;
+    height: 1080px;
+    background-image: url(../img/ba1.jpg); */
+/*     display: flex;
+    justify-content: end;
+    align-items: center; */
+    display: flex;
+}
+.imgConteiner{
+    width: 100%;
+    background-color: black;
+}
+.imgConferencia{
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+}
+
+.conferenciaContent{
+    position:absolute;
+    top:90%;
+    left:60%;
+    width:500px;
+    height:500px;
+    margin:-250px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 15;
+}
+
+.conferenciaContent p, h1{
+    color: white;
+    text-align: end;
+    font-size: large;
+}
