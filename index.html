@@ -15,40 +15,45 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-light miNav">
-            <div class="container-fluid row justify-content-center">
-                <a class="navbar-brand col-3 text-white" href="#">
-                    <img src="./img/codoacodo.png" alt="" width="100">
-                    Conf Bs As
-                </a>
-                <div class="row col-6" id="navbarSupportedContent">
-                    <ul class="navbar-nav flex-row justify-content-between align-items-center">
-                        <li class="nav-item">
-                            <a class="navLinks" href="#Conferencia">La Conferencia</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="navLinks" href="">Los Oradores</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="navLinks" href="">El lugar y la fecha</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="navLinks" href="">Convertite en orador</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="navLinks tickets" href="">Comprar tickets</a>
-                        </li>
-                    </ul>
-                </div>
+
+    <nav class="navbar navbar-light miNav">
+        <div class="container-fluid row justify-content-center">
+            <a class="navbar-brand col-3 text-white" href="#">
+                <img src="./img/codoacodo.png" alt="" width="100">
+                Conf Bs As
+            </a>
+            <div class="row col-6" id="navbarSupportedContent">
+                <ul class="navbar-nav flex-row justify-content-between align-items-center">
+                    <li class="nav-item">
+                        <a class="navLinks" href="#Conferencia">La Conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navLinks" href="#Oradores">Los Oradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navLinks" href="">El lugar y la fecha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navLinks" href="">Convertite en orador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navLinks tickets" href="">Comprar tickets</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
+
+    <main>
         <section>
             <div class="card bg-dark text-white" id="Conferencia">
                 <img src="./img/ba1.jpg" class="card-img miImg" alt="...">
                 <div class="card-img-overlay d-flex flex-column align-items-end justify-content-center ConfConteiner">
                     <h5 class="card-title ConfTitulo">Conf Bs As</h5>
-                    <p class="card-text text-end ConfText">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro del internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                    <p class="card-text text-end ConfText">Bs As llega por primera vez a Argentina. Un evento para
+                        compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando
+                        el futuro del internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo
+                        y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
                     <div class="col-5 d-flex justify-content-end">
                         <a href="#" class="btn btn-primary btnOrador m-2">Quiero ser orador</a>
                         <a href="#" class="btn btn-primary btnTickets m-2">Comprar tickets</a>
@@ -56,11 +61,54 @@
                 </div>
             </div>
         </section>
-    </header>
-
-    <main>
-        <section>
-
+        <section id="Oradores">
+            <div class="d-flex flex-column align-items-center">
+                <h5>CONOCE A LOS</h5>
+                <h1> ORADORES</h1>
+            </div>
+            <div class="cardConteiner">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="./img/steve.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="btn btn-warning">Javascript</p>
+                                <p class="btn btn-info">React</p>
+                                <h5 class="card-title">Steve Jobs</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+                                    blanditiis, optio quam eius dolores quidem autem cumque culpa excepturi tempora
+                                    assumenda, mollitia vel pariatur quod eos animi ab laborum error?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="./img/bill.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="btn btn-warning">Javascript</p>
+                                <p class="btn btn-info">React</p>
+                                <h5 class="card-title">Bill Gates</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
+                                    praesentium accusamus animi laboriosam harum quia iusto officiis eveniet ullam,
+                                    adipisci eos ratione fuga ad quidem facilis ut?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="./img/ada.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="btn btn-secondary">Negocios</p>
+                                <p class="btn btn-danger">Startups</p>
+                                <h5 class="card-title">Ada Lovelace</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
+                                    sunt nemo esse porro officiis recusandae, accusamus fuga sapiente dolorum culpa
+                                    reprehenderit neque.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section>

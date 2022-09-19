@@ -60,3 +60,8 @@
         font-size: 21px !important;
         width: 185px;
     }
+
+    /* Oradores */
+    .cardConteiner{
+        padding: 0 150px;
+    }
