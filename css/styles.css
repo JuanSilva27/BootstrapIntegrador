@@ -9,7 +9,7 @@
     background-color: #323b41 ;
     position: sticky !important;
     top: 0;
-    z-index: 20;
+    z-index: 1;
 }
 .navLinks{
     text-decoration: none;
@@ -23,40 +23,40 @@
 }
 
 /* Sections */
-div.conferencia{
-/*     width: 100%;
-    height: 1080px;
-    background-image: url(../img/ba1.jpg); */
-/*     display: flex;
-    justify-content: end;
-    align-items: center; */
-    display: flex;
-}
-.imgConteiner{
-    width: 100%;
-    background-color: black;
-}
-.imgConferencia{
-    width: 100%;
-    object-fit: cover;
-    opacity: 0.4;
-}
 
-.conferenciaContent{
-    position:absolute;
-    top:90%;
-    left:60%;
-    width:500px;
-    height:500px;
-    margin:-250px auto 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    z-index: 15;
-}
+    /* Conferencia */
+    .miImg {
+        object-fit: cover;
+        opacity: 0.4;
+    }
 
-.conferenciaContent p, h1{
-    color: white;
-    text-align: end;
-    font-size: large;
-}
+    .ConfConteiner{
+        margin-top: 8%;
+        padding-top: 10%;
+        margin-right: 100px ;
+    }
+
+    .ConfTitulo{
+        font-size: 50px;
+    }
+
+    .ConfText{
+        width: 52%;
+        font-size: 23px;
+        font-weight:450;
+    }
+
+    .btnOrador{
+        background-color: transparent !important;
+        border-color: white !important;
+        font-size: 20px !important;
+        padding: 5.1px !important;
+        width: 185px;
+    }
+
+    .btnTickets{
+        background-color: #29a744 !important;
+        border-color: #29a744 !important;
+        font-size: 21px !important;
+        width: 185px;
+    }
