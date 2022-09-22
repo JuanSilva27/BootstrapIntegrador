@@ -31,10 +31,10 @@
                         <a class="navLinks" href="#Oradores">Los Oradores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="navLinks" href="">El lugar y la fecha</a>
+                        <a class="navLinks" href="#Lugar">El lugar y la fecha</a>
                     </li>
                     <li class="nav-item">
-                        <a class="navLinks" href="">Convertite en orador</a>
+                        <a class="navLinks" href="#Conviertete">Convertite en orador</a>
                     </li>
                     <li class="nav-item">
                         <a class="navLinks tickets" href="">Comprar tickets</a>
@@ -46,7 +46,7 @@
 
     <main>
         <section>
-            <div class="card bg-dark text-white" id="Conferencia">
+            <div class="card bg-dark text-white miCardConteiner" id="Conferencia">
                 <img src="./img/ba1.jpg" class="card-img miImg" alt="...">
                 <div class="card-img-overlay d-flex flex-column align-items-end justify-content-center ConfConteiner">
                     <h5 class="card-title ConfTitulo">Conf Bs As</h5>
@@ -61,9 +61,9 @@
                 </div>
             </div>
         </section>
-        <section id="Oradores">
+        <section class="Oradores" id="Oradores">
             <div class="d-flex flex-column align-items-center">
-                <h5>CONOCE A LOS</h5>
+                <h5 class="miH5">CONOCE A LOS</h5>
                 <h1> ORADORES</h1>
             </div>
             <div class="cardConteiner">
@@ -111,17 +111,72 @@
             </div>
         </section>
 
-        <section>
-
+        <section class="lugar" id="Lugar">
+            <div class="card mb-3 miCardLugar miCardConteiner" style="max-width: 100%;">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="./img/honolulu.jpg" class="img-fluid " alt="...">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title h5Lugar">Bs As - Octubre</h5>
+                            <p class="card-text pLugar">Buenos Aires es la provincia y la localidad mas grande del
+                                estado de
+                                Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales
+                                ciudades estadounidenses. Aunque el nombre Honolulu se refiere al área urbana en la
+                                costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una
+                                ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600km² de
+                                superficie).</p>
+                            <a href="" class="btn btn-primary btnLugar">Conocé más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section>
-
+        <section class="mb-4" id="Conviertete">
+            <div class="d-flex flex-column align-items-center">
+                <h5 class="miH5">CONVIERTETE EN UN</h5>
+                <h1> ORADOR</h1>
+                <p>Anótate como orador para dar una <a href="" class="formA">charla ignite.</a>Cuéntanos de qué queres hablar!</p>
+            </div>
+            <div>
+                <div class="container-fluid row justify-content-center">
+                    <div class="col-9 d-flex flex-wrap justify-content-center">
+                        <div class="col-8 d-flex justify-content-between">
+                            <div class="formNombre">
+                                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                            </div>
+                            <div class="formApellido">
+                                <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                            </div>
+                        </div>
+                        <div class="col-8 mt-4">
+                            <label hidden for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1 miTextArea" rows="4" placeholder="Sobre qué quieres hablar?"></textarea>
+                        </div>
+                        <p class="col-8 formP">Recuerda incluir un título para tu charla</p>
+                        <a href="" class="btn btn-primary col-8 btnEnviar">Enviar</a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-
+        <div class="container-fluid row justify-content-center">
+            <div class="col-8 m-5">
+                <ul  class="navbar-nav flex-row justify-content-between align-items-center">
+                    <li class="nav-item col-1 miFotterLi"><a href="">Preguntas frecuentes</a></li>
+                    <li class="nav-item col-1 miFotterLi"><a href="">Contáctanos</a></li>
+                    <li class="nav-item col-1 miFotterLi"><a href="">Prensa</a></li>
+                    <li class="nav-item col-1 miFotterLi"><a href="">Conferencias</a></li>
+                    <li class="nav-item col-1 miFotterLi"><a href="">Términos y condiciones</a></li>
+                    <li class="nav-item col-1 miFotterLi"><a href="">Privacidad</a></li>
+                    <li class="nav-item col-1 miFotterLi"><a href="">Estudiantes</a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
 </body>
 
